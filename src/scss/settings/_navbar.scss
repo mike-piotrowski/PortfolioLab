@@ -1,0 +1,28 @@
+.nav-items {
+  list-style: none;
+  display: flex;
+  //  justify-content: space-between;
+  font-size: 18px;
+  align-content: stretch;
+}
+
+.nav-item {
+  display: block;
+  height: 50px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-left: 5px;
+  transition: all 0.3s;
+  border: 3px solid transparent;
+  height: 20px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.nav-item:hover {
+  border: 3px solid #3c3c3c;
+}
