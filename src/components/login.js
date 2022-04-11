@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import Navbar from "../components/Home/Navbar";
+import Navbar from "./Home/Navbar";
 
 class Login extends Component {
   render() {
