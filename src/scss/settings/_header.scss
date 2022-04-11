@@ -1,0 +1,76 @@
+.header {
+  height: 100vh;
+  min-height: 800px;
+  width: 100%;
+  background: url("../../assets/Home-Hero-Image.jpg") no-repeat;
+  background-size: 60% 100%;
+  background-position: -55%;
+}
+
+.header-logs {
+  font-size: 13px;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+  }
+}
+
+.header-logs a:nth-of-type(2) {
+  border: 1px solid #fad648;
+}
+
+.header-content {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 37px;
+  padding-right: 142px;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 370px;
+  width: 672px;
+  margin: 0 auto;
+  margin-right: 260px;
+  margin-top: 100px;
+}
+
+.header-decoration {
+  width: 253px;
+  height: 33px;
+  background: url("../../assets/Decoration.svg") no-repeat;
+  display: block;
+}
+
+.header-title {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  font-size: 37px;
+  line-height: 72px;
+  letter-spacing: -0.76px;
+}
+.header-links {
+  display: flex;
+  flex-direction: row;
+}
+.header-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 310px;
+  border: 1px solid #000;
+  margin: 30px;
+  font-size: 36px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
