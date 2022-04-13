@@ -11,16 +11,6 @@ class Help extends Component {
     };
   }
 
-  componentDidMount() {
-    fetch("http://localhost:3000/fundation")
-      .then((resp) => resp.json())
-      .then((fundations) => {
-        this.setState({
-          fundations,
-        });
-      });
-  }
-
   get items() {
     const fundation = this.state.fundations.find((fun) => fun.id === this.state.selected);
     return (

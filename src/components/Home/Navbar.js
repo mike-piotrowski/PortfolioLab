@@ -3,9 +3,7 @@ import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 const options = {
-  activeClass: "active",
-  spy: true,
-  smooth: true,
+  smooth: "true",
   offset: 70,
   duration: 500,
 };

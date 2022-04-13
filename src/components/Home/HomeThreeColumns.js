@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import Home from "./Home";
-
-class HomeThreeColumns extends Home {
+class HomeThreeColumns extends Component {
   render() {
     return (
       <section id="section2">

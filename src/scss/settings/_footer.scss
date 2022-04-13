@@ -1,0 +1,34 @@
+.footer-section {
+  position: absolute;
+  bottom: 0;
+  width: 45%;
+  left: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.footer-section__copy {
+  display: flex;
+  align-items: center;
+  color: #3c3c3c;
+  font-size: 18px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-section__icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons-facebook {
+  background-image: url("../../assets/Facebook.svg");
+}
+.icons-instagram {
+  background-image: url("../../assets/Instagram.svg");
+  margin-left: 20px;
+}

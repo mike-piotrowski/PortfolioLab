@@ -1,0 +1,56 @@
+.section-about {
+  width: 100%;
+  display: flex;
+}
+
+.section-about__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f0f1f1;
+}
+
+.section-about__rigth {
+  width: 942px;
+  height: 800px;
+  background-image: url("../../assets/People.jpg");
+}
+
+.section-about__title {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.section-about__deco {
+  width: 253px;
+  height: 33px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../../assets/Decoration.svg");
+}
+
+.section-about__text {
+  font-size: 30px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: -0.6px;
+  color: #3c3c3c;
+  line-height: 50px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.section-about__text::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 150px;
+  background-image: url("../../assets/Signature.svg");
+  bottom: -160px;
+  right: 0;
+}

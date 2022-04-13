@@ -1,10 +1,9 @@
 @import "reset-css";
-@import "settings/fonts";
-// @import "settings/contact";
 
-// @import "settings/HomeHeader";
-// @import "settings/help";
-// @import "settings/Home";
+@import "settings/fonts";
+@import "./settings/contact";
+@import "./settings/help";
+@import "./settings/header";
 // @import "settings/steps";
 // @import "settings/HomeThreeColumns";
 // @import "settings/navbar";
@@ -15,9 +14,3 @@
 body {
   font-family: $font-base;
 }
-
-// body {
-//   font-family: $ff-primary;
-//   font-size: $fs-basic;
-//   background-color: $bg-main-color;
-// }

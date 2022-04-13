@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Formik, Form, Field } from "formik";
-import * as Yup from "yup";
 import styled from "styled-components";
 
 export const Text = styled.p`
@@ -95,7 +94,7 @@ class FieldLevelValidationExample extends Component {
                   Wpisz swoje imię:
                   <Field
                     name="username"
-                    borderBottom={errors.username && "1px solid red"}
+                    style={{ borderBottom: errors.username && "1px solid red" }}
                     validate={validateUsername}
                     className="input"
                     placeholder="Krzysztof"
@@ -108,7 +107,7 @@ class FieldLevelValidationExample extends Component {
                   Wpisz swój email:
                   <Field
                     name="email"
-                    borderBottom={errors.email && "1px solid red"}
+                    style={{ borderBottom: errors.username && "1px solid red" }}
                     validate={validateEmail}
                     className="input"
                     placeholder="abc@xyz.pl"
