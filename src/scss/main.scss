@@ -4,12 +4,11 @@
 @import "./settings/contact";
 @import "./settings/help";
 @import "./settings/header";
-// @import "settings/steps";
-// @import "settings/HomeThreeColumns";
-// @import "settings/navbar";
-// @import "settings/about";
-// @import "settings/footer";
-// @import 'settings/login';
+@import "settings/steps";
+@import "./settings/HomeThreeColumns";
+@import "settings/navbar";
+@import "settings/about";
+// @import "settings/login";
 
 body {
   font-family: $font-base;
