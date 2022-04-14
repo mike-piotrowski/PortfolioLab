@@ -27,7 +27,7 @@ class HomeThreeColumns extends Component {
           {/* pojedynczy box */}
           <div className="info-box">
             <div className="info-box__nr">7</div>
-            <div className="info-box__title">ZORGANIZOWANY ZBIÓREK</div>
+            <div className="info-box__title">ZORGANIZOWANYCH ZBIÓREK</div>
             <div className="info-box__text">
               Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
               elementuma. Aliquam erat volutpat.
