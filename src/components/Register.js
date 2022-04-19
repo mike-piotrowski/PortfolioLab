@@ -36,7 +36,7 @@ class Register extends Component {
               </label>
               <label htmlFor="password">
                 Powtórz hasło
-                <input type="password" name="password" id="password" />
+                <input type="password" name="password2" id="password2" />
               </label>
             </form>
           </div>
